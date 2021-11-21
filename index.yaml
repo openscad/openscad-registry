@@ -17,7 +17,7 @@ indexes:
     keys:
       1.0.0: [ 0 ]
       2021.1.0: [ 1 ]
-      21.315: [ 2 ]
+      21.315.0: [ 2 ]
   StringKey/info.summary:
     keys:
       OpenSCAD is a 3D CAD program for the creation of 3D models.: [ 1 ]
