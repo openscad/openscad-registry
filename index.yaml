@@ -1,19 +1,23 @@
 # MANIFEST-INDEX
-items: [ libraries/mcad-1.0.0.yaml, openscad-2021.01.00.yaml ]
+items: [ libraries/mcad-1.0.0.yaml, openscad-2021.01.00.yaml, ub-21.315.yaml ]
 indexes:
   IdentityKey/info.id:
     keys:
+      libraries/ub: [ 2 ]
       libraries/mcad: [ 0 ]
       openscad: [ 1 ]
     words:
       libraries: [ 0 ]
       libraries/mcad: [ 0 ]
+      libraries/ub: [ 0 ]
       mcad: [ 0 ]
       openscad: [ 1 ]
+      ub: [ 2 ]
   SemverKey/info.version:
     keys:
       1.0.0: [ 0 ]
       2021.1.0: [ 1 ]
+      21.315: [ 2 ]
   StringKey/info.summary:
     keys:
       OpenSCAD is a 3D CAD program for the creation of 3D models.: [ 1 ]
