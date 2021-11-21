@@ -10,6 +10,7 @@ info:
 install:
   unzip: https://github.com/UBaer21/UB.scad/archive/refs/tags/%CE%B2315%7C21.zip
   sha256: e85ec91cfd9947c0bed85881af21f4b3df486f170d273e3ed730b77cbace72fd
+  transform: s/.*?\//UB\//
 
 settings:
   paths:
