@@ -1,6 +1,6 @@
 info:
   id: libraries/ub
-  version: 21.315
+  version: 21.315.0
   summary: This library is a full 3Dprinting workflow solution for OpenSCAD.
   description: |
     This library is a full 3Dprinting workflow solution for OpenSCAD. There
