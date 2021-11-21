@@ -1,0 +1,16 @@
+info:
+  id: libraries/ub
+  version: 21.315
+  summary: This library is a full 3Dprinting workflow solution for OpenSCAD.
+  description: |
+    This library is a full 3Dprinting workflow solution for OpenSCAD. There
+    are a lot of settings available but most is using pre configuration - so
+    you can start with the template but also just with include <ub.scad>
+
+install:
+  unzip: https://github.com/UBaer21/UB.scad/archive/refs/tags/%CE%B2315%7C21.zip
+  sha256: e85ec91cfd9947c0bed85881af21f4b3df486f170d273e3ed730b77cbace72fd
+
+settings:
+  paths:
+    openscadpath: .
