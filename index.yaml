@@ -1,5 +1,5 @@
 # MANIFEST-INDEX
-items: [ libraries/mcad-1.0.0.yaml, openscad-2021.01.00.yaml, ub-21.315.yaml ]
+items: [ libraries/mcad-1.0.0.yaml, openscad-2021.01.00.yaml, ub-21.315.0.yaml ]
 indexes:
   IdentityKey/info.id:
     keys:
