@@ -1,0 +1,19 @@
+info:
+  id: libraries/closepoints
+  version: 2021.4.25
+  summary: OpenSCAD ClosePoints Library
+  description: |
+    This is a general purpose OpenSCAD library for easily creating diverse
+    shapes by simply creating lists of points which trace out layers in an
+    outline of the desired shape. The library consists of modules for creating
+    polyhedrons from these lists of points, as well as functions to assist
+    in specifying the points using transformations.
+
+install:
+  unzip: https://github.com/rcolyer/closepoints/archive/039d9976bf828e7a8e4462b4d4e8c92eeff7bf1b.zip
+  sha256: a070bd317fe7aff6bd4a12596860f24197f36e0042d3b60e484e48b782b728c9
+  transform: s/.*?\//closepoints\//
+
+settings:
+  paths:
+    openscadpath: .

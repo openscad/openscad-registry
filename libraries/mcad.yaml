@@ -1,4 +1,4 @@
-info: 
+info:
   id: libraries/mcad
   version: 1.0.0
   summary: OpenSCAD Parametric CAD Library (LGPL 2.1)
@@ -11,6 +11,6 @@ install:
   sha256: BD40207753BB5111AC2022DA47BDD0CBA91393018BADEBC8541B8CB1D9F8572A
   transform: s/.*?\//MCAD\//
 
-settings: 
+settings:
   paths:
     openscadpath: .

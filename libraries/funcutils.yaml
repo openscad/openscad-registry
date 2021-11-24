@@ -1,0 +1,18 @@
+info:
+  id: libraries/funcutils
+  version: 2021.10.12
+  summary: OpenSCAD Functional Programming Utilities
+  description: |
+    This library is a collection of OpenSCAD functions for use with the
+    function-literals feature. It is meant to provide algorithms and tools
+    to help build efficient scripts using functional programming techniques
+    in OpenSCAD.
+
+install:
+  unzip: https://github.com/thehans/funcutils/archive/523d308464e19e550c8e61ca27a4223b9b2b015c.zip
+  sha256: 25dbb5f8bd4498a55e2ac22b4f7e67875571904b6e061da4bd40a0f096bdbac9
+  transform: s/.*?\//funcutils\//
+
+settings:
+  paths:
+    openscadpath: .

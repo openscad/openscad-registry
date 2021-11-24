@@ -1,0 +1,21 @@
+info:
+  id: libraries/plot-function
+  version: 2021.2.16
+  summary: OpenSCAD Function Plotting Library
+  description: |
+    This is a general purpose function plotting library for OpenSCAD which
+    will render functions with Cartesian coordinates (x & y input, z output),
+    polar/cylindrical coordinates (r & angle input, z output), or axial
+    coordinates (z & angle input, r output). This library is sufficiently
+    flexible that it can be used for more than just plotting functions. As
+    demonstrated in the included demo files, this can efficiently render
+    ordinary objects with surfaces defined by mathematical functions.
+
+install:
+  unzip: https://github.com/rcolyer/plot-function/archive/804086e16086548eb58a167fee7b45e63a4bdeb6.zip
+  sha256: bef4a786973604f21309bc089043b24f5f2489a18d459840cb52bb903c883915
+  transform: s/.*?\//plot-function\//
+
+settings:
+  paths:
+    openscadpath: .

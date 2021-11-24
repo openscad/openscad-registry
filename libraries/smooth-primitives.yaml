@@ -1,0 +1,17 @@
+info:
+  id: libraries/smooth-primitives
+  version: 2021.2.16
+  summary: OpenSCAD smooth primitives library
+  description: |
+    This library is a collection of some smooth primitives, i.e. having
+    specified rounded edges, for use in other designs. It's not a
+    comprehensive collection, but a useful set.
+
+install:
+  unzip: https://github.com/rcolyer/smooth-prim/archive/25ac614ef0d65083b6e641a46d12e815996d97d8.zip
+  sha256: 1c6cb44fda502901109751f19754b8d9f7d54f9ffeff129ba1d0bd8247502261
+  transform: s/.*?\//smooth-primitives\//
+
+settings:
+  paths:
+    openscadpath: .

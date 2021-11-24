@@ -1,0 +1,21 @@
+info:
+  id: libraries/threads
+  version: 2021.2.15
+  summary: OpenSCAD threads.scad module
+  description: |
+    This is an efficient OpenSCAD threading library intended primarily to
+    be used as a component in other designs. It supports metric compatible
+    internal and external threads, auger threads, thread tapering, clearance
+    holes, countersunk holes, recessed holes, hex bolts, nuts, washers,
+    Phillips tips, and long rods which are extended with threaded joints.
+    Whenever possible this complies with metric standards for the defaults
+    of parameters, while providing overrides for many values.
+
+install:
+  unzip: https://github.com/rcolyer/threads-scad/archive/dc3cc19186165b1e28da72584c528b8c5a4f404f.zip
+  sha256: f748b2476795a4cbf8f695bdc21e5fdf2baea1f556cf4df4e73d4fc15e10e39d
+  transform: s/.*?\//threads\//
+
+settings:
+  paths:
+    openscadpath: .
